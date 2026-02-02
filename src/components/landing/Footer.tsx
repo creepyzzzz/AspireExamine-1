@@ -119,6 +119,22 @@ const Footer: React.FC<FooterProps> = () => {
             <Link to="/privacy" className="hover:text-pastel-purple transition-colors">Privacy</Link>
           </div>
         </div>
+
+        {/* Disclaimer */}
+        <div className="mt-4 pt-4 border-t border-gray-100 text-center">
+          <p className="text-xs text-gray-400">
+            Disclaimer: Site Contents designed, developed, maintained and updated by{' '}
+            <a 
+              href="https://epplicon.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-pastel-purple transition-colors font-medium"
+            >
+              Epplicon Technologies
+            </a>
+            .
+          </p>
+        </div>
       </div>
     </footer>
   );
